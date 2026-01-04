@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Paws & Wheels</title>
+    <meta
+      name="description"
+      content="Free assistive devices for injured dogs. Because every pup deserves to run, play, and live their best life."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="site-header" id="top">
+      <div class="container header-inner">
+        <a class="brand" href="#top" aria-label="Paws & Wheels home">
+          <span class="brand-mark" aria-hidden="true"></span>
+          <span class="brand-text">Paws &amp; Wheels</span>
+        </a>
+
+        <nav class="nav" aria-label="Primary">
+          <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu">
+            <span class="sr-only">Open menu</span>
+            <span class="nav-toggle-bars" aria-hidden="true"></span>
+          </button>
+
+          <ul class="nav-menu" id="navMenu">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#devices">Devices</a></li>
+            <li><a href="#stories">Success Stories</a></li>
+            <li><a href="#donate">Donate</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li class="nav-cta">
+              <a class="btn btn-primary btn-sm" href="#request">Request Device</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <main>
+      <section class="hero" aria-label="Hero">
+        <div class="hero-bg" role="img" aria-label="Happy dog in a mobility cart"></div>
+        <div class="hero-overlay"></div>
+
+        <div class="container hero-content">
+          <h1>Giving Every Dog a Second Chance</h1>
+          <p class="hero-subtitle">
+            Free assistive devices for injured dogs. Because every pup deserves to run, play,
+            and live their best life.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-ghost" href="#request">Request a Device</a>
+            <a class="btn btn-primary" href="#donate">Donate Today</a>
+          </div>
+        </div>
+
+        <a class="hero-scroll" href="#about" aria-label="Scroll to next section">
+          <span aria-hidden="true">⌄</span>
+        </a>
+      </section>
+
+      <!-- Mission / About -->
+      <section class="section" id="about">
+        <div class="container">
+          <h2 class="section-title">Our Mission</h2>
+
+          <div class="split">
+            <div class="split-left">
+              <p>
+                At Paws &amp; Wheels, we believe that every dog deserves a chance at mobility and
+                happiness, regardless of physical challenges. Our nonprofit organization is
+                dedicated to providing free custom assistive devices to injured dogs in need.
+              </p>
+
+              <p>
+                Founded with love and compassion, we work closely with veterinarians, rescue
+                organizations, and pet owners to ensure that no dog is left behind due to mobility
+                issues.
+              </p>
+
+              <p>
+                Through the generosity of our donors and the dedication of our volunteers, we help
+                dogs regain their freedom to run, play, and explore the world around them.
+              </p>
+            </div>
+
+            <div class="split-right">
+              <div class="card card-soft">
+                <h3 class="card-title">What We Provide</h3>
+                <ul class="bullets">
+                  <li><span class="dot dot-blue" aria-hidden="true"></span>Custom wheelchairs and mobility carts</li>
+                  <li><span class="dot dot-green" aria-hidden="true"></span>Prosthetic limbs and orthotics</li>
+                  <li><span class="dot dot-blue" aria-hidden="true"></span>Support harnesses and slings</li>
+                  <li><span class="dot dot-green" aria-hidden="true"></span>Ongoing support and adjustments</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Devices -->
+      <section class="section section-alt" id="devices">
+        <div class="container">
+          <h2 class="section-title">Assistive Devices</h2>
+          <p class="section-subtitle">
+            We provide a range of custom assistive devices, carefully designed and fitted to meet
+            the unique needs of every dog.
+          </p>
+
+          <div class="grid grid-3">
+            <article class="card device-card">
+              <div class="device-img device-img-1" role="img" aria-label="Dog using a mobility wheelchair"></div>
+              <div class="card-body">
+                <h3>Mobility Wheelchairs</h3>
+                <p class="muted">Lightweight carts for front or rear mobility challenges.</p>
+                <button class="linklike" data-modal="wheelchairs">Hover to learn more</button>
+              </div>
+            </article>
+
+            <article class="card device-card">
+              <div class="device-img device-img-2" role="img" aria-label="Dog wearing prosthetic limbs"></div>
+              <div class="card-body">
+                <h3>Prosthetic Limbs</h3>
+                <p class="muted">Custom prosthetics and orthotics for safe, stable movement.</p>
+                <button class="linklike" data-modal="prosthetics">Hover to learn more</button>
+              </div>
+            </article>
+
+            <article class="card device-card">
+              <div class="device-img device-img-3" role="img" aria-label="Dog wearing support harness"></div>
+              <div class="card-body">
+                <h3>Support Harnesses</h3>
+                <p class="muted">Comfort harnesses and slings for rehab and daily support.</p>
+                <button class="linklike" data-modal="harnesses">Hover to learn more</button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Success Stories -->
+      <section class="section" id="stories">
+        <div class="container">
+          <h2 class="section-title">Success Stories</h2>
+          <p class="section-subtitle">
+            Meet some of the amazing dogs whose lives have been transformed by our assistive devices.
+          </p>
+
+          <div class="stories">
+            <article class="story story-feature">
+              <div class="story-media story-media-1" role="img" aria-label="Happy beagle running"></div>
+              <div class="story-panel card card-soft">
+                <div class="story-head">
+                  <div>
+                    <h3>Luna</h3>
+                    <p class="muted">Beagle</p>
+                  </div>
+                  <span class="pill">Device: Custom Prosthetic Leg</span>
+                </div>
+                <p class="muted">
+                  Luna lost her front leg in an accident but never lost her spirit. With her custom
+                  prosthetic, she’s back to chasing squirrels and exploring the neighborhood. Her
+                  owner says she’s more confident than ever.
+                </p>
+              </div>
+            </article>
+
+            <article class="story story-duo">
+              <div class="story-panel card card-soft">
+                <div class="story-head">
+                  <div>
+                    <h3>Max</h3>
+                    <p class="muted">German Shepherd</p>
+                  </div>
+                  <span class="pill">Device: Mobility Wheelchair</span>
+                </div>
+                <p class="muted">
+                  After a spinal injury left Max’s rear legs paralyzed, his family feared his active
+                  days were over. His custom wheelchair changed everything. Now Max hikes trails,
+                  goes on beach runs, and participates in adaptive dog sports.
+                </p>
+              </div>
+              <div class="story-media story-media-2" role="img" aria-label="German shepherd in a wheelchair at the beach"></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Donate -->
+      <section class="section section-alt" id="donate">
+        <div class="container">
+          <h2 class="section-title">Make a Difference</h2>
+          <p class="section-subtitle">
+            Your generous donation helps us provide free assistive devices to dogs in need.
+            Every contribution makes a real difference in a dog’s life.
+          </p>
+
+          <div class="grid grid-3 donate-grid">
+            <article class="card donate-card">
+              <h3>Support Materials</h3>
+              <p class="muted">
+                Helps cover the cost of materials for one assistive device component.
+              </p>
+              <a class="btn btn-outline" href="#" aria-label="Donate 25 dollars">Donate $25</a>
+            </article>
+
+            <article class="card donate-card donate-featured">
+              <div class="badge">Most Popular</div>
+              <h3>Fund a Device</h3>
+              <p class="muted">Covers the full cost of creating one custom assistive device.</p>
+              <a class="btn btn-primary" href="#" aria-label="Donate 75 dollars">Donate $75</a>
+            </article>
+
+            <article class="card donate-card">
+              <h3>Sponsor a Dog</h3>
+              <p class="muted">
+                Sponsors a complete device plus ongoing support and adjustments.
+              </p>
+              <a class="btn btn-outline" href="#" aria-label="Donate 150 dollars">Donate $150</a>
+            </article>
+          </div>
+
+          <div class="card card-soft donate-custom">
+            <h3>Choose Your Own Amount</h3>
+            <p class="muted">Every donation, no matter the size, helps us continue our mission.</p>
+            <div class="custom-row">
+              <label class="sr-only" for="customAmount">Custom donation amount</label>
+              <span class="currency" aria-hidden="true">$</span>
+              <input id="customAmount" type="number" min="1" step="1" placeholder="50" inputmode="numeric" />
+              <a class="btn btn-primary" id="customDonateBtn" href="#">Make a Custom Donation</a>
+            </div>
+            <p class="tiny muted">
+              Tip: Set your real donation links by updating the <code>href</code> values in this section.
+            </p>
+          </div>
+
+          <div class="stats">
+            <div class="stat">
+              <div class="stat-number">250+</div>
+              <div class="stat-label muted">Dogs Helped</div>
+            </div>
+            <div class="stat">
+              <div class="stat-number">100%</div>
+              <div class="stat-label muted">Free of Charge</div>
+            </div>
+            <div class="stat">
+              <div class="stat-number">15</div>
+              <div class="stat-label muted">States Served</div>
+            </div>
+            <div class="stat">
+              <div class="stat-number">98%</div>
+              <div class="stat-label muted">Success Rate</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Request a Device -->
+      <section class="section" id="request">
+        <div class="container">
+          <h2 class="section-title">Request a Device</h2>
+          <p class="section-subtitle">
+            If your dog needs an assistive device, we’re here to help. Our application process is
+            simple and designed to gather the information we need to create the perfect solution
+            for your furry friend. All devices are provided completely free of charge.
+          </p>
+
+          <div class="grid grid-2">
+            <div class="card card-soft">
+              <h3 class="card-title">What We Need</h3>
+              <ul class="bullets">
+                <li><span class="dot dot-blue" aria-hidden="true"></span>Veterinary assessment and recommendation</li>
+                <li><span class="dot dot-green" aria-hidden="true"></span>Dog’s measurements and photos</li>
+                <li><span class="dot dot-blue" aria-hidden="true"></span>Medical history and current condition</li>
+                <li><span class="dot dot-green" aria-hidden="true"></span>Contact information for follow-up</li>
+              </ul>
+            </div>
+
+            <div class="card card-soft">
+              <h3 class="card-title">Our Process</h3>
+              <ol class="steps">
+                <li><span class="step-bubble step-1">1</span><span>Submit application with required information</span></li>
+                <li><span class="step-bubble step-2">2</span><span>Our team reviews and approves application</span></li>
+                <li><span class="step-bubble step-3">3</span><span>Custom device design and manufacturing</span></li>
+                <li><span class="step-bubble step-4">4</span><span>Free shipping and fitting support</span></li>
+              </ol>
+            </div>
+          </div>
+
+          <div class="card card-soft form-card">
+            <h3 class="center">Application Form</h3>
+            <p class="muted center">
+              Replace the placeholder below with your Google Form embed code.
+            </p>
+
+            <!-- OPTION A: Paste your Google Form iframe here (recommended) -->
+            <!--
+            <iframe
+              src="https://docs.google.com/forms/d/e/XXXXX/viewform?embedded=true"
+              width="100%"
+              height="980"
+              frameborder="0"
+              marginheight="0"
+              marginwidth="0"
+              title="Request a Device Form"
+            >Loading…</iframe>
+            -->
+
+            <!-- Placeholder -->
+            <div class="embed-placeholder" aria-label="Google Form embed placeholder">
+              <div class="embed-inner">
+                <div class="embed-title">[Google Form Embed Area]</div>
+                <div class="embed-sub">
+                  Copy and paste your Google Form embed code here to replace this placeholder.
+                </div>
+              </div>
+            </div>
+
+            <p class="tiny muted center">
+              Applications are typically processed within 5–7 business days. We’ll contact you with any
+              questions or updates.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="section section-alt" id="contact">
+        <div class="container">
+          <h2 class="section-title">Contact</h2>
+          <p class="section-subtitle">
+            Want to partner, volunteer, or ask a question? We’d love to hear from you.
+          </p>
+
+          <div class="grid grid-2">
+            <div class="card card-soft">
+              <h3 class="card-title">Get in touch</h3>
+              <ul class="contact-list">
+                <li><span class="contact-label">Email</span> <a href="mailto:hello@pawsandwheels.org">hello@pawsandwheels.org</a></li>
+                <li><span class="contact-label">Phone</span> <a href="tel:+10000000000">(000) 000-0000</a></li>
+                <li><span class="contact-label">Location</span> <span class="muted">Your City, State</span></li>
+              </ul>
+
+              <div class="contact-actions">
+                <a class="btn btn-primary" href="#donate">Donate</a>
+                <a class="btn btn-outline" href="#request">Request a Device</a>
+              </div>
+            </div>
+
+            <div class="card card-soft">
+              <h3 class="card-title">Quick message</h3>
+              <form class="mini-form" onsubmit="return false;">
+                <label>
+                  <span class="muted">Name</span>
+                  <input type="text" placeholder="Your name" />
+                </label>
+                <label>
+                  <span class="muted">Email</span>
+                  <input type="email" placeholder="you@example.com" />
+                </label>
+                <label>
+                  <span class="muted">Message</span>
+                  <textarea rows="4" placeholder="How can we help?"></textarea>
+                </label>
+                <button class="btn btn-primary" type="submit" id="fakeSendBtn">
+                  Send Message
+                </button>
+                <p class="tiny muted">
+                  This demo form does not send email. For production, connect a service like Formspree
+                  or use a Google Form.
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-inner">
+        <div class="footer-left">
+          <div class="brand footer-brand">
+            <span class="brand-mark" aria-hidden="true"></span>
+            <span class="brand-text">Paws &amp; Wheels</span>
+          </div>
+          <p class="tiny muted">© <span id="year"></span> Paws &amp; Wheels. All rights reserved.</p>
+        </div>
+
+        <div class="footer-right">
+          <a class="tiny" href="#about">About</a>
+          <a class="tiny" href="#devices">Devices</a>
+          <a class="tiny" href="#stories">Stories</a>
+          <a class="tiny" href="#donate">Donate</a>
+          <a class="tiny" href="#contact">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Simple modal (for device "learn more") -->
+    <div class="modal" id="modal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="More information">
+      <div class="modal-backdrop" data-close="true"></div>
+      <div class="modal-panel" role="document">
+        <button class="modal-close" id="modalClose" aria-label="Close dialog">×</button>
+        <h3 id="modalTitle">Title</h3>
+        <p class="muted" id="modalText">Text</p>
+        <div class="modal-actions">
+          <a class="btn btn-primary btn-sm" href="#request" id="modalCta">Request a Device</a>
+          <button class="btn btn-outline btn-sm" data-close="true">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
